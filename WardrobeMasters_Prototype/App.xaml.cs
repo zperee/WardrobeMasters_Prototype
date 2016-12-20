@@ -8,7 +8,7 @@ namespace WardrobeMasters_Prototype
 		{
 			InitializeComponent();
 
-			MainPage = new WardrobeMasters_PrototypePage();
+			MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart()
