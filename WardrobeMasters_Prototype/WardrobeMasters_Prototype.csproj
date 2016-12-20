@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -35,6 +35,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Base.cs" />
+    <Compile Include="Model\Brand.cs" />
+    <Compile Include="Model\Clothes.cs" />
+    <Compile Include="Model\Type.cs" />
+    <Compile Include="Model\Waredrobe.cs" />
     <Compile Include="WardrobeMasters_PrototypePage.xaml.cs">
       <DependentUpon>WardrobeMasters_PrototypePage.xaml</DependentUpon>
     </Compile>
