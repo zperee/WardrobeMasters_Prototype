@@ -10,6 +10,7 @@ namespace WardrobeMasters_Prototype
 		public RegistrationPage()
 		{
 			InitializeComponent();
+			BindingContext = new RegistrationViewModel();
 		}
 	}
 }
