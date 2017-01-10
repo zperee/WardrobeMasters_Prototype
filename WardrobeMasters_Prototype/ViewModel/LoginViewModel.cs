@@ -75,7 +75,7 @@ namespace WardrobeMasters_Prototype
 
 			if (Username.Equals("Test") && Password.Equals("1234"))
 			{
-				new NotImplementedException();
+				Application.Current.MainPage = new MasterPage();
 			}
 			else
 			{
